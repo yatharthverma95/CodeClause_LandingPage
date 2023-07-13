@@ -1,0 +1,45 @@
+#img{
+    width: 20%;
+    background-size: auto;
+    margin-bottom:4%;
+    margin-top: 0.8%;
+    opacity: 0.7;
+    position: relative;
+}
+.container-fluid a{
+    font-weight: 500;
+   
+}
+.container text-center{
+    margin-top: 10%;
+}
+body{
+    background-color: rgb(21, 17, 70);
+    color: rgb(224, 21, 21);
+}
+.row .col{
+    margin-top: 2%;
+
+}
+.container{
+    background-color: black;
+    color: aliceblue;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-60%, -40%);
+    font-size: 60px;
+    padding: 30%;
+    color: rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 1s;
+  }
+  @keyframes example {
+    0%   { right:0px; left:0px;}
+    25%  { right:200px; left:0px;}
+    /* 50%  { right:200px; left:200px;} */
+    75%  { right:0px; left:200px;}
+    100% { right:0px; left:0px;}
+  }
